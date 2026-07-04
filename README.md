@@ -42,7 +42,9 @@ An optional Brave Search integration adds fatwa-site commands for IslamQA and Is
 
 Keep this token private. Anyone with the token can control the bot. If it is ever exposed, revoke it through BotFather and replace it in `.env`.
 
-For a private bot, get your numeric Telegram user ID by messaging **@userinfobot**. Add that number to `ALLOWED_TELEGRAM_USER_ID`.
+Get your numeric Telegram user ID by messaging **@userinfobot**. Add that number to `ALLOWED_TELEGRAM_USER_ID`.
+
+If you would like the bot to respond to you alone and nobody else on the internet, then set the `PUBLIC_BOT` in your `.env` file to false, otherwise, set it to true.
 
 ## Find Turath book IDs
 
@@ -318,7 +320,7 @@ The fiqh commands do not need Brave. Brave is required only for the website-sear
 
 ### Set up Brave Search
 
-1. Obtain a Brave Search API key from Brave Search API.
+1. Obtain a Brave Search API key from [Brave Search API](https://brave.com/).
 2. Add it to your `.env` file:
 
 ```dotenv
