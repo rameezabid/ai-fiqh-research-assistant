@@ -320,7 +320,7 @@ The fiqh commands do not need Brave. Brave is required only for the website-sear
 
 ### Set up Brave Search
 
-1. Obtain a Brave Search API key from [Brave Search API](https://brave.com/).
+1. Obtain a Brave Search API key from [Brave Search API](https://brave.com/search/api/).
 2. Add it to your `.env` file:
 
 ```dotenv
